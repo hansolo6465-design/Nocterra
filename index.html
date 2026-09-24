@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +9,11 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=DM+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
 
   <link rel="stylesheet" href="style.css" />
 
@@ -17,12 +22,15 @@
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script defer src="script.js"></script>
 </head>
+
 <body>
   <div class="noise"></div>
   <div class="cursor-glow"></div>
 
   <header class="site-header">
-    <a href="#home" class="brand-mark" aria-label="NOCTERRA home">N<span>O</span>CTERRA</a>
+    <a href="#home" class="brand-mark" aria-label="NOCTERRA home">
+      N<span>O</span>CTERRA
+    </a>
 
     <nav class="desktop-nav" aria-label="Main navigation">
       <a href="#philosophy">Philosophy</a>
@@ -31,8 +39,13 @@
       <a href="#contact">Contact</a>
     </nav>
 
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
-      <span></span><span></span>
+    <button
+      class="menu-toggle"
+      aria-label="Toggle navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
     </button>
   </header>
 
@@ -44,21 +57,33 @@
   </div>
 
   <main>
+    <!-- HERO SECTION -->
     <section class="hero section-dark" id="home">
       <div class="hero-copy">
-        <p class="eyebrow reveal">A fictional spirits house · Est. 2026</p>
+        <p class="eyebrow reveal">
+          A fictional spirits house · Est. 2026
+        </p>
+
         <h1 class="hero-title">
           <span class="line">Beyond</span>
           <span class="line italic">the ordinary.</span>
         </h1>
+
         <p class="hero-description reveal">
           A study in shadow, texture, and timeless form.
           Discover the visual world of NOCTERRA.
         </p>
-        <a class="text-link reveal" href="#philosophy">Enter the world <span>↗</span></a>
+
+        <a class="text-link reveal" href="#philosophy">
+          Enter the world <span>↗</span>
+        </a>
       </div>
 
-      <div class="hero-visual" id="hero-canvas" aria-label="Interactive 3D bottle-inspired abstract sculpture"></div>
+      <div
+        class="hero-visual"
+        id="hero-canvas"
+        aria-label="Interactive 3D bottle-inspired abstract sculpture"
+      ></div>
 
       <div class="hero-footer reveal">
         <span>01 / 04</span>
@@ -67,17 +92,25 @@
       </div>
     </section>
 
+    <!-- PHILOSOPHY SECTION -->
     <section class="statement section-cream" id="philosophy">
       <div class="section-index">02 — Philosophy</div>
+
       <div class="statement-content">
         <p class="eyebrow">Quietly distinctive</p>
-        <h2>Luxury is not<br /><em>loud.</em></h2>
+
+        <h2>
+          Luxury is not<br />
+          <em>loud.</em>
+        </h2>
+
         <p class="body-copy">
           NOCTERRA is an imagined house built around restraint,
           atmosphere, and the beauty of considered details.
           Every surface, silhouette, and movement has a purpose.
         </p>
       </div>
+
       <div class="statement-orbit" aria-hidden="true">
         <span>FORM</span>
         <span>TEXTURE</span>
@@ -85,61 +118,107 @@
       </div>
     </section>
 
+    <!-- COLLECTION SECTION -->
     <section class="collection section-dark" id="collection">
       <div class="section-heading">
         <div class="section-index">03 — The collection</div>
+
         <p class="eyebrow">Three imagined expressions</p>
-        <h2>Made for the<br /><em>afterglow.</em></h2>
+
+        <h2>
+          Made for the<br />
+          <em>afterglow.</em>
+        </h2>
       </div>
 
       <div class="product-grid">
         <article class="product-card">
           <div class="product-art product-art-one">
-            <div class="mini-bottle"><span>N</span></div>
+            <div class="mini-bottle">
+              <span>N</span>
+            </div>
           </div>
+
           <div class="product-meta">
-            <div><span>01</span><h3>Obsidian</h3></div>
+            <div>
+              <span>01</span>
+              <h3>Obsidian</h3>
+            </div>
+
             <p>Deep · Textural · Refined</p>
           </div>
         </article>
 
         <article class="product-card featured-product">
           <div class="product-art product-art-two">
-            <div class="mini-bottle"><span>N</span></div>
+            <div class="mini-bottle">
+              <span>N</span>
+            </div>
           </div>
+
           <div class="product-meta">
-            <div><span>02</span><h3>Solenne</h3></div>
+            <div>
+              <span>02</span>
+              <h3>Solenne</h3>
+            </div>
+
             <p>Warm · Luminous · Elegant</p>
           </div>
         </article>
 
         <article class="product-card">
           <div class="product-art product-art-three">
-            <div class="mini-bottle"><span>N</span></div>
+            <div class="mini-bottle">
+              <span>N</span>
+            </div>
           </div>
+
           <div class="product-meta">
-            <div><span>03</span><h3>Vesper</h3></div>
+            <div>
+              <span>03</span>
+              <h3>Vesper</h3>
+            </div>
+
             <p>Smoky · Modern · Composed</p>
           </div>
         </article>
       </div>
     </section>
 
+    <!-- CRAFT SECTION -->
     <section class="craft section-cream" id="craft">
       <div class="section-index">04 — The craft</div>
+
       <div class="craft-layout">
         <div class="craft-copy">
           <p class="eyebrow">The beauty of restraint</p>
-          <h2>Less noise.<br /><em>More presence.</em></h2>
+
+          <h2>
+            Less noise.<br />
+            <em>More presence.</em>
+          </h2>
+
           <p class="body-copy">
             A visual story built from warm highlights, mineral shadows,
             and a deliberate pace. The experience is designed to feel
             tactile, calm, and immersive.
           </p>
+
           <div class="craft-details">
-            <div><strong>01</strong><span>Considered form</span></div>
-            <div><strong>02</strong><span>Atmospheric light</span></div>
-            <div><strong>03</strong><span>Modern heritage</span></div>
+            <div>
+              <strong>01</strong>
+              <span>Considered form</span>
+            </div>
+
+            <div>
+              <strong>02</strong>
+              <span>Atmospheric light</span>
+            </div>
+
+            <div>
+              <strong>03</strong>
+              <span>Modern heritage</span>
+            </div>
           </div>
         </div>
 
@@ -147,22 +226,35 @@
           <div class="arch">
             <div class="arch-inner"></div>
           </div>
-          <p class="vertical-note">THE HOUSE OF NOCTERRA</p>
+
+          <p class="vertical-note">
+            THE HOUSE OF NOCTERRA
+          </p>
         </div>
       </div>
     </section>
 
+    <!-- CONTACT / CLOSING SECTION -->
     <section class="closing section-dark" id="contact">
       <p class="eyebrow">A fictional brand concept</p>
-      <h2>Stay in<br /><em>the shadows.</em></h2>
+
+      <h2>
+        Stay in<br />
+        <em>the shadows.</em>
+      </h2>
+
       <p class="body-copy">
         This concept is created for visual exploration and web development.
         No product ordering or alcohol promotion is enabled.
       </p>
-      <a class="text-link" href="#home">Return to the beginning <span>↗</span></a>
+
+      <a class="text-link" href="#home">
+        Return to the beginning <span>↗</span>
+      </a>
     </section>
   </main>
 
+  <!-- FOOTER -->
   <footer class="site-footer">
     <span>© 2026 NOCTERRA — Concept Project</span>
     <span>Designed for the digital night</span>
